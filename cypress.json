@@ -1,0 +1,29 @@
+{
+  "baseUrl": "https://opencart.abstracta.us",
+  "env": {
+    "defaultPassword": "Test12345!",
+    "apiUrl": "https://opencart.abstracta.us/index.php"
+  },
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "viewportWidth": 1000,
+  "viewportHeight": 660,
+  "waitForAnimations": true,
+  "animationDistanceThreshold": 20,
+  "defaultCommandTimeout": 15000,
+  "execTimeout": 60000,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 15000,
+  "responseTimeout": 15000,
+  "failOnStatusCode": false,
+  "reporter": "cypress-mochawesome-reporter",
+  "video": false,
+  "retries": 1,
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "TealBook Test Automation Report",
+    "embeddedScreenshots": true,
+    "saveAllAttempts": false
+  }
+}
